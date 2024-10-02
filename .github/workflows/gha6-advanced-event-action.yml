@@ -10,7 +10,7 @@ jobs:
     steps:  
       - name: Run Test  
         run: |  
-          ls ${{ github.event_name }}  
+          echo "${{ github.event_name }}" 
           echo Run Test  
   
   
